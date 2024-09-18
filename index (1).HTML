@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de carros</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Venta de carros <img class="header_logo" src="Multimedia/favicon.png" alt="header_logo"></h1>
+    </header>
+    <div class="grid">
+        <nav>
+            <ul>
+                <li><a href="Sobre Nosotros" target="_self">Sobre nosotros</a></li>
+                <li><a href="Servicios" target="_self">Servicios</a></li>
+                <li><a href="Formulario.html" target="_self">Formulario</a></li>
+            </ul>
+        </nav>
+        <div class="sub-grid">
+            
+        </div>
+    </div>
+    <div class="section bmw">
+        <div class="button__back-container">
+            <button onclick="previewImage()">Atrás</button>
+        </div>
+        <div class="image__container">
+            <img id="imgIdbmw" class="Multimedia" src="Multimedia/bmw2.jpg" alt="BMW Image">
+        </div>
+        <div class="button__forward-container">
+            <button onclick="nextImage()">Adelante</button>
+        </div>
+        <h1 class="texto__inicial">LLEVA TU BMW</h1>
+        <p>
+            Motor: Disponible en versiones de gasolina y diésel, con potencias que van desde 333 CV (245 kW) hasta 625 CV (460 kW) en el modelo M8 Competition.
+            Consumo de Combustible: Aproximadamente 10.7-11.0 l/100 km para el M850i xDrive y 11.2-11.6 l/100 km para el M8 Competition.
+            Emisiones de CO₂: Entre 243-249 g/km para el M850i xDrive y 255-265 g/km para el M8 Competition.
+            Equipamiento: Incluye paquete aerodinámico M, llantas de aleación ligera M de 19 pulgadas, frenos M Sport de 18 pulgadas, volante M Sport de cuero y asientos multifunción en cuero "Merino".
+        </p>
+    </div>
+
+
+    <div class="section ROLLS-ROYCE"></div>
+        <div class="button__back-container">
+            <button onclick="previewImage3()">Atrás</button>
+        </div>
+        <div class="image__container">
+            <img id="imgIdrollsroyce" class="Multimedia" src="Multimedia/Rolls-Royce2.png" alt="BMW Image">
+        </div>
+        <div class="button__forward-container">
+            <button onclick="nextImage3()">Adelante</button>
+        </div>
+        <h1 class="texto__inicial">LLEVA TU ROLLS-ROYCE</h1>
+        <p>
+            Motor: Disponible en versiones de gasolina y diésel, con potencias que van desde 333 CV (245 kW) hasta 625 CV (460 kW) en el modelo M8 Competition.
+            Consumo de Combustible: Aproximadamente 10.7-11.0 l/100 km para el M850i xDrive y 11.2-11.6 l/100 km para el M8 Competition.
+            Emisiones de CO₂: Entre 243-249 g/km para el M850i xDrive y 255-265 g/km para el M8 Competition.
+            Equipamiento: Incluye paquete aerodinámico M, llantas de aleación ligera M de 19 pulgadas, frenos M Sport de 18 pulgadas, volante M Sport de cuero y asientos multifunción en cuero "Merino".
+        </p>
+    </div>
+
+
+    <div class="section Jaguar"></div>
+        <div class="button__back-container">
+            <button onclick="previewImage2()">Atrás</button>
+        </div>
+        <div class="image__container">
+            <img id="imgIdjaguar" class="Multimedia" src="Multimedia/png-jaguar.png" alt="BMW Image">
+        </div>
+        <div class="button__forward-container">
+            <button onclick="nextImage2()">Adelante</button>
+        </div>
+        <h1 class="texto__inicial">LLEVA TU Jaguar</h1>
+        <p>
+            Motor: Disponible en versiones de gasolina y diésel, con potencias que van desde 333 CV (245 kW) hasta 625 CV (460 kW) en el modelo M8 Competition.
+            Consumo de Combustible: Aproximadamente 10.7-11.0 l/100 km para el M850i xDrive y 11.2-11.6 l/100 km para el M8 Competition.
+            Emisiones de CO₂: Entre 243-249 g/km para el M850i xDrive y 255-265 g/km para el M8 Competition.
+            Equipamiento: Incluye paquete aerodinámico M, llantas de aleación ligera M de 19 pulgadas, frenos M Sport de 18 pulgadas, volante M Sport de cuero y asientos multifunción en cuero "Merino".
+        </p>
+    </div>
+    <section class="form">
+        <h2>Contacto</h2>
+        <form class="form__form" id="contactForm">
+            <div class="form__input-container">
+                <label for="inputName">Nombre:</label>
+                <input id="inputName" type="text" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form__input-container">
+                <label for="inputLastName">Apellido:</label>
+                <input id="inputLastName" type="text" placeholder="Escribe tu apellido" required>
+            </div>
+            <div class="form__input-container">
+                <label for="inputEmail">Correo electrónico:</label>
+                <input id="inputEmail" type="email" placeholder="Escribe tu correo electrónico" required>
+            </div>
+            <div class="form__input-container">
+                <label for="textMessage">Mensaje:</label>
+                <textarea id="textMessage" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <div class="form__input-container">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer><strong>Venta de vehículos de alta gama</strong> © 2024</footer>
+</body>
+</html>
